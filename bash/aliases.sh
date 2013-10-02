@@ -5,9 +5,10 @@ alias o="open ."  # OS X, open in Finder
 alias t='touch'
 
 # Management
-alias dots="mvim ~/.dotfiles"
+alias dots="nano ~/.dotfiles"
 alias reload='source ~/.bash_profile && echo "sourced ~/.bash_profile"'
 alias redot='cd ~/.dotfiles && gpp && rake install; cd -'
+alias aliases='nano .dotfiles/bash/aliases.sh'
 
 # Shell
 alias c='clear'
@@ -58,7 +59,7 @@ alias gcp="git cherry-pick"
 alias gam="git commit --amend"
 alias gg="git log --grep"
 
-alias hosts='sudo mvim /etc/hosts'
+alias hosts='sudo nano /etc/hosts'
 
 # Redis
 alias redis="redis-server /usr/local/etc/redis.conf"
@@ -71,3 +72,9 @@ alias http="python -m SimpleHTTPServer 8080"
 
 # Hub (http://defunkt.io/hub/)
 alias git=hub
+
+# MAMP
+alias vhosts='sudo nano /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
+alias phplog='nano /Applications/MAMP/logs/php_error.log '
+alias apachelog='nano /Applications/MAMP/logs/apache_error.log' 
+alias mysqllog='nano /Applications/MAMP/logs/mysql_error_log.err'
