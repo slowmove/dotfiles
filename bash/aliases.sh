@@ -3,6 +3,8 @@ alias o="open ."  # OS X, open in Finder
 
 # Files
 alias t='touch'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 # Management
 alias dots="nano ~/.dotfiles"
