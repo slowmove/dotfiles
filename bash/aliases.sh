@@ -39,28 +39,6 @@ alias mig='rake db:migrate'
 alias rsp="bundle exec specjour"
 alias f="foreman start"
 
-# Git
-alias gl="git log"
-alias gs="git status"
-alias gw="git show"
-alias gd="git diff"  # What's changed but not yet added?
-alias gdc="git diff --cached"  # What's added but not yet committed?
-alias gc="git commit -a -m"
-alias gco="git commit -m"  # "only"
-alias gca="git add . && git commit -a -m"  # "all"
-alias gp='git push'
-alias gpp='git pull --rebase && git push'
-alias gppp='git pull && git push'
-alias go="git checkout"
-alias gb="git checkout -b"
-alias got="git checkout -"
-alias gom="git checkout master"
-alias gr="git branch -d"
-alias grr="git branch -D"
-alias gcp="git cherry-pick"
-alias gam="git commit --amend"
-alias gg="git log --grep"
-
 alias hosts='sudo nano /etc/hosts'
 
 # Redis
@@ -72,9 +50,6 @@ alias mongod="mongod run --config /usr/local/etc/mongod.conf"
 # HTTP
 alias http="python -m SimpleHTTPServer 8080"
 alias phpserve="php -S localhost:3000 ."
-
-# Hub (http://defunkt.io/hub/)
-alias git=hub
 
 # MAMP
 alias vhosts='sudo nano /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
